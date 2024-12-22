@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gonna test them all</title>
+    <title>Phantom Airlines</title>
 </head>
 <body>
-    <h1>the test of all tests test</h1>
-    testing testing
+  
 </body>
 </html>
