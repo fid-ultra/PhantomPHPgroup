@@ -1,3 +1,7 @@
+<?php
+include "dbconn.php";
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,6 +22,8 @@
 <body style="background-color:gray;">
 
 <h1 style="color:darkblue;display:inline;"><a href="Home.php">PHantom Airlines</a></h1>
-
+<form method="post" action="booknow.php">
+    <input type="submit" value="fuck you";
+</form>
 </body>
 </html>
