@@ -12,7 +12,6 @@ padding: 10px;
    p:hover{
    background-color: silver;
    transition: all 0.3s;
-   
    }
 a{
     text-decoration: none;
