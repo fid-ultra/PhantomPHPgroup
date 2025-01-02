@@ -29,31 +29,8 @@
 </style>
 <body style="background-color:gray;">
 
-<h1 style="color:darkblue;display:inline;"><a href="Home.php">PHantom Airlines</a></h1>
 
-<table border="4">
-    <tr>
-<form method="post" action="booknow2.php">
-    <br>
-  <td> First Name: <input type="text" name="name" required ></td>
-    <br>
-    <br>
-    </tr>
-    <td>Sur Name: <input type="text" name="surname"required></td>
-    <br>
-    <br>
-    <tr><td>Email: <input type="email" name="email" required></td>
-    <br>
-   
-</tr> <br>
-  <tr><td> Number: <input type="phone" name="PhoneNumber" required></td></tr>    <br>
-    <br>
-   <tr><td>Password: <input type="password" name="password" required></td></tr>
-    <br>
-    <br>
-    <tr><td><input type="submit" value="Register"></td></tr>
-</form>
-</table>
+
 </body>
 </html>
 <?php

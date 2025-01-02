@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,12 +18,10 @@ session_start();
 
 
 </style>
-
 <body style="background-color:gray;">
 
 <h1 id="gohomeh1" style="color:darkblue;display:inline;"><a href="Home.php">PHantom Airlines</a></h1>
 
-<h1 id="infocheckingh1">Please check your info before booking :</h1>
 <table border="4">
     <tr>
     <br>
@@ -51,5 +47,5 @@ session_start();
 </body>
 </html>
 <?php
-
+session_start();
 include "dbstuff/dbconn.php";
