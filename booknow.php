@@ -15,7 +15,7 @@
        background-color: silver;
        transition: all 0.3s;
        padding: 10px;
-    }
+    } 
     input:hover{
       background-color: aqua;
       padding: 5px;
@@ -59,3 +59,24 @@
 <?php
 session_start();
 include "dbstuff/dbconn.php";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// signed by fahadsunna 2/2/2025
