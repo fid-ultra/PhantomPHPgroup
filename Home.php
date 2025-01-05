@@ -40,7 +40,7 @@ width:100%;
     <br>
     <br>
     
-  <img src="phantomairlinesbanner.png" alt="pic broke :(" width="100%">
+  <img src="phantomairlinesbanner.png" alt="pic not working" width="100%">
   <div class="text"><h2>Book your First flight see your flight status or just stalk us its all up to you :)</h2></div>
   <div class="uselessbanner">
    <h1> PHantom Airlines group: 202220123/202220632/202210102/202220005/202110662</h1>
