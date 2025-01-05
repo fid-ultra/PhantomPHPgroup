@@ -19,14 +19,9 @@ session_start();
        background-color: silver;
        transition: all 0.3s;
     }
-    #infocheckingh1{
-      
-      margin-bottom: 0;  /* Removes the bottom margin */
-    }
     
     table{
         
-        margin-top: 0;
         width: 30%;
         height: 300px;
 
@@ -45,7 +40,7 @@ session_start();
 <h1 id="infocheckingh1">Please Register :</h1>
 <table border="4">
     <tr>
-<form method="post" >
+<form method="POST" action="../dbstuff/dblogic.php" >
     <br>
   <td> First Name: <input type="text" name="name" required ></td>
     <br>
@@ -60,8 +55,14 @@ session_start();
 </tr> <br>
   <tr><td> Number: <input type="phone" name="PhoneNumber" required></td></tr>    <br>
     <br>
-   <tr><td>Password: <input type="password" name="password" required></td></tr>
+    <tr><td>Gender: <select  name="gender">  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+</select></select>
     <br>
+    <tr><td>Age: <input type="number" name="age" min="12" max="100"><tr><td>Password: <input type="password" name="password" required></td></tr>
+    <br>
+    
+</td></tr>
     <br>
     <tr><td><input type="submit" value="Register" >
 

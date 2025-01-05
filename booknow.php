@@ -16,16 +16,7 @@
        transition: all 0.3s;
        padding: 10px;
     } 
-    input:hover{
-      background-color: aqua;
-      padding: 5px;
-      font-size: large;
-    }
-    table{
-        width: 30%;
-        height: 300px;
-
-    }
+   
 </style>
 <body style="background-color:gray;">
 
