@@ -1,4 +1,11 @@
+<?php
+session_start();
+if(isset($_SESSION['emailg'])){
 
+}else{
+    header("location:accountThingies/registering.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +32,7 @@
 </body>
 </html>
 <?php
-session_start();
+
 include "dbstuff/dbconn.php";
 
 
@@ -46,5 +53,3 @@ include "dbstuff/dbconn.php";
 
 
 
-
-// signed by fahadsunna 2/1/2025

@@ -69,7 +69,7 @@ session_start();
 </form>
 
 </table>
-<p><a href="login.php">Already have an account ? try loging in instead (click me)</a></p>
+<p><a href="../dbstuff/dblogic.php">Already have an account ? try loging in instead (click me)</a></p>
 </body>
 </html>
 <?php
